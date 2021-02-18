@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Helyx Hacks III</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="description"
+		content="Helyx Hacks III - Third edition of annual hackathon organized by The Helyx Initiative">
+	<meta name="author" content="Yash Gupta <yash@helyxscience.org>">
+	<link rel="shortcut icon" href="./images/new_logo.png" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<!-- <script>
+		document.addEventListener('DOMContentLoaded', function () {
+			let devfolioOptions = {
+					buttonSelector: '#devfolio-apply-now',
+					key: 'hackonhills',
+			}
+
+			let script = document.createElement('script');
+			script.src = "https://apply.devfolio.co";
+			document.head.append(script);
+
+			script.onload = function () {
+					new Devfolio(devfolioOptions);
+					let e1 = document.createElement('div');
+					e1.className = "button-back";
+					document.getElementById("devfolio-apply-now").appendChild(e1);
+			}
+
+			script.onerror = function () {
+					document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+						window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+					});
+			}
+		});
+	</script> -->
+</head>
+
+<body>
+	<div class="header">
+		<div class="blurred"></div>
+		<ul class="nav">
+			<li class="head">
+				<span class="closeHeader">
+					<img src="./images/cross.svg">
+				</span>
+			</li>
+			<li class="navItem active"> Home </li>
+			<li class="navItem"> Diversity </li>
+			<!-- <li class="navItem"> Gallery </li> -->
+			<li class="navItem"> Tracks </li>
+			<li class="navItem"> Schedule </li>
+			<li class="navItem"> Sponsors </li>
+			<li class="navItem"> Prizes </li>
+			<li class="navItem"> FAQs </li>
+		</ul>
+	</div>
+	<div class="fullOverlay"></div>
+	<div class="content">
+		<div class="hamburger">
+			<img src="./images/menu.svg">
+		</div>
+		<div class="appteam-logo">
+			<!--<img src="./images/logo.svg" title="App Team NITH">-->
+		</div>
+		<div class="frame frame1">
+			<img src="./images/back-1.svg" class="img-back">
+			<div class="frame1-right">
+				<img src="./images/frame1-icon.svg">
+			</div>
+			<div class="frame1-left">
+				<div class="content">
+					<div class="sponsor-name"> <a href="https://helyx.science" target="__blank"><img
+								src="./images/Helyx_Logo.png" class="github-home-icon"></a> Presents </div>
+					<div class="name"> Helyx Hacks III</div><br>
+					<div class="date"> 2 - 9 April 2021 </div><br>
+					<div class="date"> Online </div>
+					<!-- <div class="devfolio">
+						<button id="devfolio-apply-now"> Apply With Devfolio </button>
+					</div> -->
+				</div>
+			</div>
+			<!-- <div class="app-team-icon">
+				<img src="./images/appteam.png">
+			</div> -->
+		</div>
+		<div class="frame frame2">
+			<img class="img-back-left" src="./images/back-2.svg">
+			<img class="img-back" src="./images/back-3.svg">
+			<div class="frame2-left">
+				<img src="./images/frame1-right.svg">
+			</div>
+			<div class="frame2-right">
+				<div class="name"> About </div>
+				<div class="content">
+					<p>
+						Helyx Hacks III is the one of the largest online biotech-based hackathons where high school
+						students around the world innovate <strong>impactful
+							software projects</strong> relating to the secret theme released at the opening ceremony.
+						Students
+						<strong>team up in groups of 2 to 4 or work
+							alone</strong> to build an app, game, program, or website. Students will have <strong>7
+							days</strong>, from April
+						2nd, 2021 at 10 AM PST to April 9th, 2021 at
+						4PM PST, to create an amazing product and submit it to compete for <strong>thousands of dollars
+							of
+							prizes</strong>. The hackathon is a good way to <strong>show off</strong> your skills and
+						learn something new!
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="frame frame7">
+			<img src="./images/back-4.svg" class="img-back">
+			<img src="./images/back-5.svg" class="img-back-bottom">
+			<div class="frame7-content">
+				<div class="name">
+					Rules
+				</div>
+				<div class="faq">
+					<div class="question">
+						1. Be nice to everyone
+					</div>
+					<div class="answer">
+						We want to make sure everyone feels welcome and safe to our hackathon and will take action
+						against any violation of this.
+					</div>
+
+				</div>
+				<div class="faq">
+					<div class="question">
+						2. Don't feel afraid to ask questions.
+					</div>
+					<div class="answer">
+						We want to make sure that everyone learns and benefits from this hackathon. The best way to do
+						so is taking that step and asking our many active mentors on our <a
+							href="https://discord.gg/XVT94Ha">Discord</a>. We are happy to help!
+					</div>
+				</div>
+				<div class="faq">
+					<div class="question">
+						3. Please remember that there will be NO monetary prizes for international students outside of
+						the United States.
+					</div>
+					<div class="answer">
+						Unfortunately, due to the difference in payments and net of logistics to transfer money/physical
+						prizes to other countries, it has been a legal and financial hassle that we will not be able to
+						overcome. However, we will try to provide software prizes to encourage those internationally who
+						want to compete. Also, remember that it isn't only about prizes!
+					</div>
+				</div>
+				<div class="faq">
+					<div class="question">
+						4. Remember to submit through Devpost with the appropriate information required.
+					</div>
+					<div class="answer">
+						Please remember to submit your work and sign up for the Nucleotide Hackathon on Devpost <a
+							href="https://helyx-hacks.devpost.com/">here</a>.
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="frame frame6">
+			<img src="./images/back-6.svg" class="img-back-left">
+			<img src="./images/back-7.svg" class="img-back-right">
+			<div class="name"> Registration </div>
+			<div class="prizes">
+				<div class="content">
+					<p style="font-family: Didact Gothic;">This hackathon is free! All we need are some simple details.
+						If you want, you can open it in
+						a new tab using this <a href="https://williamkang.typeform.com/to/Twcx2G1m">link</a>. See you at
+						the hackathon!</p>
+
+					<iframe src="https://williamkang.typeform.com/to/Twcx2G1m" name="Helyx Hacks III Registration Form"
+						scrolling="No" height="500px" width="100%" style="border: none;"></iframe>
+
+					<p style="font-family: Didact Gothic;">After finishing the above form, please remember to sign up on
+						<a href="https://helyx-hacks.devpost.com/">Devpost</a>. This is how we will judge your project
+						and award prizes!
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="frame frame7">
+			<img src="./images/back-4.svg" class="img-back">
+			<img src="./images/back-5.svg" class="img-back-bottom">
+			<div class="frame7-content">
+				<div class="name">
+					FAQs
+				</div>
+				<div class="faq">
+					<div class="question">
+						How much does it cost? 💸 </div>
+					<div class="answer">
+						Nothing! <a href="http://helyx.science"> The Helyx Initiative </a> believes in accessible
+						education for all and have worked our hardest to make sure that this event can run smoothly
+						without any cost for more people to join in.
+
+					</div>
+
+				</div>
+				<div class="faq">
+					<div class="question">
+						Who can participate? 🔭
+					</div>
+					<div class="answer">
+						Any current student grades 8–12. Gap year and going-to-college in the fall students are also
+						allowed!
+					</div>
+				</div>
+				<div class="faq">
+					<div class="question">
+						What is a hackathon? 👨
+					</div>
+					<div class="answer">
+						A hackathon is a week-long event where students will gather in teams of 2-4 or alone to code
+						innovative software in the form of apps, games, websites, hardware, and much more.
+					</div>
+				</div>
+				<div class="faq">
+					<div class="question">
+						Where and when is the hackathon? 📅
+					</div>
+					<div class="answer">
+						Helyx Hacks III is April 2nd, 2021 to April 9th, 2021. This hackathon is fully online. The main
+						source of communication will be our <a href="https://discord.gg/pwttFKB">Discord</a>. This will
+						act as sort of a "lobby" for the hackathon where we will send meeting links for different
+						hackathon events and allow communication between peers, mentors, and organizers.
+					</div>
+				</div>
+				<div class="faq">
+					<div class="question">
+						Why Helyx Hacks III? 💻 </div>
+					<div class="answer">
+						With our hackathon-experienced team and <a href="https://www.helyx.science/">Helyx</a>'s
+						experience running numerous hackathons (ie <a href="https://nucleotidehack.com/">Nucleotide
+							Hackathon</a>), we will ensure that you will take away the most from our hackathon
+						specifically. You will also make new connections that will help you out in the future through
+						mediums, such as teams, our established Discord community with more than 3000 people, and much
+						more.
+					</div>
+				</div>
+				<div class="faq">
+					<div class="question">
+						What can I make? 🤖 </div>
+					<div class="answer">
+						Anything! A website, app, game, hardware hack, you name it. Judges will rate projects on
+						creativity, technical skill demonstrated, polish, utility, theme adherence, and, last but not
+						least, impact.
+					</div>
+				</div>
+				<div class="faq">
+					<div class="question">
+						What if I’m new to coding? 👾 </div>
+					<div class="answer">
+						At Helyx Hacks III, complete beginners are not only welcome, but expected! Learn as you go with
+						our mentors and teammates throughout the hackathon. This is a perfect opportunity for you to
+						explore new software and new knowledge!
+					</div>
+				</div>
+				<div class="faq">
+					<div class="question">
+						Do I need a team? 👨‍
+					</div>
+					<div class="answer">
+						Nope! You’ll have an opportunity to meet fellow hackers and make teams of up to 4 — find some
+						new friends, bring yours, or let us help you find a team. Otherwise, feel free to work solo!
+					</div>
+				</div>
+				<div class="faq">
+					<div class="question">
+						What do I need? 🧳
+					</div>
+					<div class="answer">
+						All you need is a computer, WiFi, and access to the Internet to access the online platforms
+						(Discord, DevPost, Zoom, etc.) the hackathon will be held.
+					</div>
+				</div>
+				<div class="faq">
+					<div class="question">
+						Who runs this? Is it supervised? 👨‍ </div>
+					<div class="answer">
+						As part of <a href="http://helyx.science">The Helyx Initiative</a>, high schoolers got together
+						and organized this hackathon to spread STEM.
+					</div>
+				</div>
+				<div class="faq">
+					<div class="question">
+						I have a question related to hackathon which is not listed above. What should I do?
+					</div>
+					<div class="answer">
+						Feel free to contact <a href="mailto:yash@helyxscience.org">yash@helyxscience.org</a> for any
+						further questions or ask on our <a href="https://discord.gg/37k8xpf">Discord</a>.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="frame frame6">
+			<img src="./images/back-6.svg" class="img-back-left">
+			<img src="./images/back-7.svg" class="img-back-right">
+			<div class="name"> Prizes </div>
+			<div class="prizes">
+				<div class="prizes-cont">
+					<div class="prize">
+						<div class="prize-img">
+							<img src="./images/new_logo.png">
+						</div>
+						<div class="prize-text">
+							TBD </div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img src="./images/new_logo.png">
+						</div>
+						<div class="prize-text">
+							TBD </div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img src="./images/new_logo.png">
+						</div>
+						<div class="prize-text">
+							TBD </div>
+					</div>
+
+					<p style="font-family: Didact Gothic;">The prizes will soon be announced. We plan on giving the
+						winning projects, decided by our judges, monetary and other prizes to aid innovation far after
+						this week!
+					</p>
+					<!-- <div class="prize">
+						<div class="prize-img">
+							<img src="./images/new_logo.png">
+						</div>
+						<div class="prize-text">
+							Most Innovative : ₹ 5000 Cash
+						</div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img src="./images/new_logo.png">
+						</div>
+						<div class="prize-text">
+							Diversity Prize : ₹ 5000 Cash
+						</div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img src="./images/new_logo.png">
+						</div>
+						<div class="prize-text">
+							Best social media post tagging Hack on Hills - Special Schwags
+						</div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img class="img-square" src="./images/Sponsors/zulip-logo.png">
+						</div>
+						<div class="prize-text">
+							Best App using Zulip API - 100$
+						</div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img src="./images/Sponsors/hasura_logo_horizontal_black.png">
+						</div>
+						<div class="prize-text">
+							Best App using GraphQL - ₹ 5000 Flipkart Voucher
+						</div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img src="./images/Sponsors/Matic_Logo.png">
+						</div>
+						<div class="prize-text">
+							Best Ethereum App - ₹ 5000 Cash
+						</div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img src="./images/Sponsors/devfolio.png">
+						</div>
+						<div class="prize-text">
+							Participants developing Ethereum applications - Devfolio T-shirt
+						</div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img src="./images/Sponsors/devfolio.png">
+						</div>
+						<div class="prize-text">
+							Top 3 teams - T-Shirts/Bags and Coupons
+						</div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img src="./images/Sponsors/roposo.png">
+						</div>
+						<div class="prize-text">
+							Top 10 teams - Placement Opportunities
+						</div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img src="./images/Sponsors/socialcops.png">
+						</div>
+						<div class="prize-text">
+							Top 5 teams - Placement Opportunities
+						</div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img src="./images/Sponsors/bugsee.png">
+						</div>
+						<div class="prize-text">
+							Top 3 teams - $1000 Bugsee Credit
+						</div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img src="./images/Sponsors/sketch-logo-light-transparent@2x.png">
+						</div>
+						<div class="prize-text">
+							Top 3 teams -Sketch License
+						</div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img src="./images/Sponsors/sketch-logo-light-transparent@2x.png">
+						</div>
+						<div class="prize-text">
+							3 Licenses to be raffled among Participants
+						</div>
+					</div>
+					<div class="prize">
+						<div class="prize-img">
+							<img class="img-square" src="./images/Sponsors/Creative-tim.png">
+						</div>
+						<div class="prize-text">
+							Top 3 Teams - Access to their premium products
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</div>
+		<div class="frame frame7">
+			<img src="./images/back-4.svg" class="img-back">
+			<img src="./images/back-5.svg" class="img-back-bottom">
+			<div class="frame7-content">
+				<div class="name">
+					Team
+				</div>
+				<style>
+					@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+					@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+					body {
+						margin: 0;
+						font-family: 'Open Sans', sans-serif;
+					}
+
+					* {
+						box-sizing: border-box;
+					}
+
+					.team-section {
+						background-color: #009688;
+						min-height: 100vh;
+						padding: 70px 15px 30px;
+					}
+
+					.container {
+						max-width: 1170px;
+						margin: auto;
+					}
+
+					.row {
+						display: flex;
+						flex-wrap: wrap;
+					}
+
+					.team-section .section-title {
+						flex-basis: 100%;
+						max-width: 100%;
+						margin-bottom: 70px;
+					}
+
+					.team-section .section-title h1 {
+						font-size: 40px;
+						text-align: center;
+						margin: 0;
+						color: #ffffff;
+						font-weight: 700;
+					}
+
+					.team-section .section-title p {
+						font-size: 16px;
+						text-align: center;
+						margin: 15px 0 0;
+						color: #ffffff;
+					}
+
+					.team-section .team-items {
+
+						flex-basis: 100%;
+						max-width: 100%;
+						display: flex;
+						flex-wrap: wrap;
+						justify-content: space-around;
+					}
+
+					.team-section .team-items .item {
+						flex-basis: calc(25% - 30px);
+						max-width: calc(25% - 30px);
+						transition: all .5s ease;
+						margin-bottom: 40px;
+					}
+
+					.team-section .team-items .item img {
+						display: block;
+						width: 100%;
+						border-radius: 8px;
+					}
+
+					.team-section .team-items .item .inner {
+						position: relative;
+						z-index: 11;
+						padding: 0 15px;
+					}
+
+					.team-section .team-items .item .inner .info {
+						background-color: #009688;
+						text-align: center;
+						padding: 20px 15px;
+						border-radius: 8px;
+						transition: all .5s ease;
+						margin-top: -40px;
+					}
+
+					.team-section .team-items .item:hover .info {
+						transform: translateY(-20px);
+					}
+
+					.team-section .team-items .item:hover {
+						transform: translateY(-10px);
+					}
+
+					.team-section .team-items .item .inner .info h5 {
+						margin: 0;
+						font-size: 18px;
+						font-weight: 600;
+						color: #ffffff;
+					}
+
+					.team-section .team-items .item .inner .info p {
+						font-size: 16px;
+						font-weight: 400;
+						color: #c5c5c5;
+						margin: 10px 0 0;
+					}
+
+					.team-section .team-items .item .inner .info .social-links {
+						padding-top: 15px;
+					}
+
+					.team-section .team-items .item .inner .info .social-links a {
+						display: inline-block;
+						height: 32px;
+						width: 32px;
+						background-color: #ffffff;
+						color: rgb(102,153,153);
+						border-radius: 50%;
+						margin: 0 2px;
+						text-align: center;
+						line-height: 32px;
+						font-size: 16px;
+						transition: all .5s ease;
+					}
+
+					.team-section .team-items .item .inner .info .social-links a:hover {
+						box-shadow: 0 0 10px #000;
+					}
+
+					/*responsive*/
+					@media(max-width: 991px) {
+						.team-section .team-items .item {
+							flex-basis: calc(50% - 30px);
+							max-width: calc(50% - 30px);
+
+						}
+					}
+
+					@media(max-width: 767px) {
+						.team-section .team-items .item {
+							flex-basis: calc(100%);
+							max-width: calc(100%);
+
+						}
+					}
+				</style>
+				<section class="team-section">
+					<div class="container">
+						<div class="row">
+							<div class="team-items">
+								<div class="item">
+									<img src="images\team\Yash.jpg" alt="team" />
+									<div class="inner">
+										<div class="info">
+											<h5>Sarita Sharma</h5>
+											<p>Designer</p>
+											<div class="social-links">
+												<a href=""><span class="fa fa-facebook"></span></a>
+												<a href=""><span class="fa fa-twitter"></span></a>
+												<a href=""><span class="fa fa-linkedin"></span></a>
+												<a href=""><span class="fa fa-youtube"></span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<img src="images\team\Will.png" alt="team" />
+									<div class="inner">
+										<div class="info">
+											<h5>Sonu Gupta</h5>
+											<p>Designer</p>
+											<div class="social-links">
+												<a href=""><span class="fa fa-facebook"></span></a>
+												<a href=""><span class="fa fa-twitter"></span></a>
+												<a href=""><span class="fa fa-linkedin"></span></a>
+												<a href=""><span class="fa fa-youtube"></span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<img src="images\team\Sarah.jpg" alt="team" />
+									<div class="inner">
+										<div class="info">
+											<h5>Chahar Singh</h5>
+											<p>Designer</p>
+											<div class="social-links">
+												<a href=""><span class="fa fa-facebook"></span></a>
+												<a href=""><span class="fa fa-twitter"></span></a>
+												<a href=""><span class="fa fa-linkedin"></span></a>
+												<a href=""><span class="fa fa-youtube"></span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<img src="images\team\Andrew.jpg" alt="team" />
+									<div class="inner">
+										<div class="info">
+											<h5>Soshiv Upreti</h5>
+											<p>Designer</p>
+											<div class="social-links">
+												<a href=""><span class="fa fa-facebook"></span></a>
+												<a href=""><span class="fa fa-twitter"></span></a>
+												<a href=""><span class="fa fa-linkedin"></span></a>
+												<a href=""><span class="fa fa-youtube"></span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<div class="frame frame5">
+			<img src="./images/back-4.svg" class="img-back">
+			<img src="./images/back-5.svg" class="img-back-bottom">
+			<div class="frame5-content">
+				<div class="name"> Sponsors </div>
+				<p style="font-family: Didact Gothic;">The sponsors will soon be announced.
+				</p>
+				<!-- <div class="sponsor-icons">
+					<div class="sponsor-icon main-sponsor">
+						<a href="http://github.com/" target="__blank"><img src="./images/Sponsors/GitHub_Logo.png"></a>
+					</div>
+					<div class="sponsor-icon">
+						<a href="https://ebizontek.com/" target="__blank"><img
+								src="./images/Sponsors/EbizON-LOGO.png"></a>
+					</div>
+					<div class="sponsor-icon dev-icon">
+						<a href="https://devfolio.co/" target="__blank"><img src="./images/Sponsors/devfolio.png"></a>
+					</div>
+					<div class="sponsor-icon">
+						<a href="https://simbachain.com/" target="__blank"><img
+								src="./images/Sponsors/SIMBA_logo-h.png"></a>
+					</div>
+					<div class="sponsor-icon square-icon">
+						<a href="https://quiknode.io/" target="__blank"><img src="./images/Sponsors/QuikNode.png"></a>
+					</div>
+					<div class="sponsor-icon">
+						<a href="https://matic.network/" target="__blank"><img
+								src="./images/Sponsors/Matic_Logo.png"></a>
+					</div>
+					<div class="sponsor-icon dev-icon">
+						<a href="https://metabrainz.org/" target="__blank"><img src="./images/Sponsors/meta.png"></a>
+					</div>
+					<div class="sponsor-icon">
+						<a href="https://about.gitlab.com/" target="__blank"><img
+								src="./images/Sponsors/gitlab.png"></a>
+					</div>
+					<div class="sponsor-icon square-icon">
+						<a href="https://himachal.nic.in/en-IN/" target="__blank"><img
+								src="./images/Sponsors/himachal govt logo.png"></a>
+					</div>
+					<div class="sponsor-icon dev-icon">
+						<a href="https://codingblocks.com/" target="__blank"><img
+								src="./images/Sponsors/Logo_DarkGrey_ NoShadow.png"></a>
+					</div>
+					<div class="sponsor-icon square-icon">
+						<a href="https://zulipchat.com/" target="__blank"><img
+								src="./images/Sponsors/zulip-logo.png"></a>
+					</div>
+					<div class="sponsor-icon">
+						<a href="https://hasura.io/" target="__blank"><img
+								src="./images/Sponsors/hasura_logo_horizontal_black.png"></a>
+					</div>
+					<div class="sponsor-icon">
+						<a href="https://www.roposo.com/" target="__blank"><img src="./images/Sponsors/roposo.png"></a>
+					</div>
+
+					<div class="sponsor-icon">
+						<a href="https://socialcops.com/" target="__blank"><img
+								src="./images/Sponsors/socialcops.png"></a>
+					</div>
+					<div class="sponsor-icon dev-icon">
+						<a href="https://www.stickermule.com/" target="__blank"><img
+								src="./images/Sponsors/sticker-mule-logo-dark.png"></a>
+					</div>
+					<div class="sponsor-icon dev-icon">
+						<a href="https://www.stickwidit.com/" target="__blank"><img
+								src="./images/Sponsors/stickwidit.png"></a>
+					</div>
+					<div class="sponsor-icon square-icon">
+						<a href="https://duassassins.in/" target="__blank"><img
+								src="./images/Sponsors/Team Du Assassins!  20180619_140523.jpg"></a>
+					</div>
+					<div class="sponsor-icon dev-icon">
+						<a href="https://www.hellointern.com/" target="__blank"><img
+								src="./images/Sponsors/HI-Logo-PNG.png"></a>
+					</div>
+					<div class="sponsor-icon dev-icon">
+						<a href="http://ohcampus.com/v2/" target="__blank"><img
+								src="./images/Sponsors/OhCampus New Logo.png"></a>
+					</div>
+					<div class="sponsor-icon middle-icon">
+						<a href="https://www.producthunt.com/" target="__blank"><img
+								src="./images/Sponsors/product-hunt.png"></a>
+					</div>
+					<div class="sponsor-icon square-icon">
+						<a href="https://www.jetbrains.com/" target="__blank"><img
+								src="./images/Sponsors/JetBrains-Logo.svg"></a>
+					</div>
+					<div class="sponsor-icon">
+						<a href="https://www.sketchapp.com/" target="__blank"><img
+								src="./images/Sponsors/sketch-logo-light-transparent@2x.png"></a>
+					</div>
+					<div class="sponsor-icon square-icon">
+						<a href="https://www.creative-tim.com/" target="__blank"><img
+								src="./images/Sponsors/Creative-tim.png"></a>
+					</div>
+					<div class="sponsor-icon">
+						<a href="https://www.bugsee.com/" target="__blank"><img src="./images/Sponsors/bugsee.png"></a>
+					</div> -->
+			</div>
+		</div>
+
+		<div class="frame frame8">
+			<div class="footer-icons">
+				<a href="https://github.com/appteam-nith/HackOnHills" target="__blank"><img
+						src="./images/github-color.svg"></a>
+				<a href="https://www.facebook.com/hackonhills/" target="__blank"><img src="./images/fb-color.svg"></a>
+				<a href="https://www.instagram.com/hackonhills/" target="__blank"><img
+						src="./images/insta-color.svg"></a>
+				<a href="https://twitter.com/hackonhills" target="__blank"><img src="./images/twitter-color.svg"></a>
+				<a href="https://www.linkedin.com/company/hack-on-hills/" target="__blank"><img
+						src="./images/linkedin-color.svg"></a>
+				<a href="mailto:hackonhills@gmail.com"><img src="./images/email-color.svg"></a>
+			</div>
+			<div class="footer-text">
+				<a href="https://hackcodeofconduct.org/847-hack_on_hills" target="__blank"> Code of Conduct </a>
+			</div>
+			<div class="footer-text">
+				&copy; 2019 Team Hack on Hills
+			</div>
+			Made with &nbsp;&nbsp;<span class="heart">❤️</span>
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/menu.js"></script>
+</body>
+
+</html>
