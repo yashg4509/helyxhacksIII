@@ -77,11 +77,83 @@
 			</div>
 			<div class="frame1-left">
 				<div class="content">
+					<style>
+						.bouncy {
+							animation: bouncy 5s infinite linear;
+							position: relative;
+						}
+
+						@keyframes bouncy {
+							0% {
+								top: 0em
+							}
+
+							40% {
+								top: 0em
+							}
+
+							43% {
+								top: -0.9em
+							}
+
+							46% {
+								top: 0em
+							}
+
+							48% {
+								top: -0.4em
+							}
+
+							50% {
+								top: 0em
+							}
+
+							100% {
+								top: 0em;
+							}
+						}
+
+						a.button1 {
+							display: inline-block;
+							padding: 0.35em 1.2em;
+							border: 0.1em solid #FFFFFF;
+							margin: 0 0.3em 0.3em 0;
+							border-radius: 0.12em;
+							box-sizing: border-box;
+							text-decoration: none;
+							font-family: 'Didact Gothic';
+							font-weight: 300;
+							color: #FFFFFF;
+							text-align: center;
+							transition: all 0.2s;
+						}
+
+						a.button1:hover {
+							color: #000000;
+							background-color: #FFFFFF;
+						}
+
+						@media all and (max-width:30em) {
+							a.button1 {
+								display: block;
+								margin: 0.4em auto;
+							}
+						}
+					</style>
 					<div class="sponsor-name"> <a href="https://helyx.science" target="__blank"><img
 								src="./images/Helyx_Logo.png" class="github-home-icon"></a> Presents </div>
 					<div class="name"> Helyx Hacks III</div><br>
 					<div class="date"> 2 - 9 April 2021 </div><br>
 					<div class="date"> Online </div>
+					<br> <br>
+					<a href="https://williamkang.typeform.com/to/Twcx2G1m" class="button1 bouncy">Register Now!</a>
+					<a href="http://helyx-hacks.devpost.com/" class="button1 bouncy" style="animation-delay:0.14s">Check
+						out the Devpost!</a>
+					<a href="https://discord.gg/HEUpg7NxKd" class="button1 bouncy" style="animation-delay:0.07s">Join
+						the Discord!</a>
+					<br> <br>
+					<a href="https://www.helyx.science/" class="button1 bouncy" style="animation-delay:0.21s">Check out
+						The Helyx Initiative!</a>
 					<!-- <div class="devfolio">
 						<button id="devfolio-apply-now"> Apply With Devfolio </button>
 					</div> -->
@@ -113,6 +185,12 @@
 							of
 							prizes</strong>. The hackathon is a good way to <strong>show off</strong> your skills and
 						learn something new!
+					</p>
+					<br>
+					<p>
+						<strong>A place for everyone.</strong>
+						<br>
+						While the core subjects are being emphasized in schools, many students have little to no access to computer science education programs, meaning students aren't exposed to programming until late high school or college. Hackathons in general can also be scary or intimidating for new programmers. We're hoping to encourage students of all backgrounds, ages, genders, sexualities, and locations to learn and love programming by providing an inclusive environment. No matter who you are, you’re welcome here—and you’ll surprise yourself by what you can accomplish. 💛 For more information on the rules and code of conduct we abide by, check out our <a href="https://hackcodeofconduct.org/1392-hack_the_helyx_hackathon">Hack Code of Conduct.</a>
 					</p>
 				</div>
 			</div>
@@ -472,7 +550,7 @@
 					}
 
 					.team-section {
-						background-color: rgb(102,153,153);
+						background-color: rgb(102, 153, 153);
 						min-height: 20vh;
 						padding: 70px 15px 30px;
 					}
@@ -537,7 +615,7 @@
 					}
 
 					.team-section .team-items .item .inner .info {
-						background-color: rgb(102,153,153);
+						background-color: rgb(102, 153, 153);
 						text-align: center;
 						padding: 20px 15px;
 						border-radius: 8px;
@@ -576,7 +654,7 @@
 						height: 26px;
 						width: 32px;
 						background-color: #ffffff;
-						color: rgb(102,153,153);
+						color: rgb(102, 153, 153);
 						border-radius: 50%;
 						margin: 0 2px;
 						text-align: center;
@@ -620,19 +698,19 @@
 									</div>
 								</div>
 								<div class="item">
-									<img src="images\team\Will.png" alt="team" />
+									<img src="images\team\Andrew.jpg" alt="team" />
 									<div class="inner">
 										<div class="info">
-											<h5>William Kang</h5>
+											<h5>Andrew Gao</h5>
 											<p>Executive Director</p>
 										</div>
 									</div>
 								</div>
 								<div class="item">
-									<img src="images\team\Andrew.jpg" alt="team" />
+									<img src="images\team\Will.png" alt="team" />
 									<div class="inner">
 										<div class="info">
-											<h5>Andrew Gao</h5>
+											<h5>William Kang</h5>
 											<p>Executive Director</p>
 										</div>
 									</div>
@@ -658,7 +736,9 @@
 			<div class="name"> Judges </div>
 			<div class="prizes">
 				<div class="content">
-					<p style="font-family: Didact Gothic;"> The judges will soon be announced. They will judge your project based on certain criteria. However, they can only judge if you remember to sign up through our <a href="https://helyx-hacks.devpost.com/">Devpost</a>!</p>
+					<p style="font-family: Didact Gothic;"> The judges will soon be announced. They will judge your
+						project based on certain criteria. However, they can only judge if you remember to sign up
+						through our <a href="https://helyx-hacks.devpost.com/">Devpost</a>!</p>
 				</div>
 			</div>
 		</div>
@@ -766,9 +846,9 @@
 
 		<div class="frame frame8">
 			<div class="footer-icons">
-				<a href="https://github.com/helyx-science" target="__blank"><img
-						src="./images/github-color.svg"></a>
-				<a href="https://www.facebook.com/thehelyxinitiative/" target="__blank"><img src="./images/fb-color.svg"></a>
+				<a href="https://github.com/helyx-science" target="__blank"><img src="./images/github-color.svg"></a>
+				<a href="https://www.facebook.com/thehelyxinitiative/" target="__blank"><img
+						src="./images/fb-color.svg"></a>
 				<a href="https://www.instagram.com/thehelyxinitiative/?hl=en" target="__blank"><img
 						src="./images/insta-color.svg"></a>
 				<a href="https://www.linkedin.com/company/the-helyx-initiative/" target="__blank"><img
@@ -779,7 +859,7 @@
 				Helyx Hacks III, an event hosted by <a href="https://helyx.science">The Helyx Initiative</a>
 			</div>
 			Shoutout to <a href="https://hackonhills.com">Hack on Hills</a> for help on the design!
-		</div> 
+		</div>
 	</div>
 	<script type="text/javascript" src="./js/menu.js"></script>
 </body>
